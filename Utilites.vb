@@ -1,6 +1,7 @@
 ﻿Module Utilites
     Public theData As New WebRun
-
+    '
+    '
     Public Function ConvertFiletoHar(filename As String) As har.root
         Dim _returnValue As New har.root
         Using _inputfile As New IO.StreamReader(filename)
